@@ -336,7 +336,11 @@
         transition: transform 0.3s ease, box-shadow 0.3s ease;
         border: 1px solid var(--dark-border);
         min-width: 350px;
+        width: 800px;
         flex-shrink: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
       }
 
       .project-card:hover {
@@ -346,16 +350,25 @@
 
       .project-image {
         height: 200px;
-        background: linear-gradient(
+        /* background: linear-gradient(
           135deg,
           var(--primary),
           var(--primary-dark)
-        );
+        ); */
         display: flex;
         align-items: center;
         justify-content: center;
         color: white;
         font-size: 3rem;
+      }
+
+      .project-image img {
+        border-radius: 20px;
+        margin-left: 10px;
+        width: auto;
+        height: 100%;
+        justify-self: center;
+        align-self: center;
       }
 
       .project-content {
@@ -662,7 +675,8 @@
           display: none;
         }
 
-        .skill-category, .project-card {
+        .skill-category,
+        .project-card {
           min-width: 280px;
         }
       }
@@ -728,7 +742,8 @@
               <li><i class="fas fa-check"></i> REST APIs (JWT, OTP Auth)</li>
               <li><i class="fas fa-check"></i> PostgreSQL, MongoDB</li>
               <li>
-                <i class="fas fa-check"></i> Real-time communication (WebSockets)
+                <i class="fas fa-check"></i> Real-time communication
+                (WebSockets)
               </li>
               <li>
                 <i class="fas fa-check"></i> Backend Deployment (Render, VPS)
@@ -740,7 +755,9 @@
             <h3><i class="fas fa-microchip"></i> Embedded Systems</h3>
             <ul class="skill-list">
               <li><i class="fas fa-check"></i> Embedded C / C++</li>
-              <li><i class="fas fa-check"></i> ESP32, Arduino, STM32 (Basics)</li>
+              <li>
+                <i class="fas fa-check"></i> ESP32, Arduino, STM32 (Basics)
+              </li>
               <li>
                 <i class="fas fa-check"></i> FreeRTOS (Tasks, Queues, Timers)
               </li>
@@ -771,7 +788,7 @@
               </li>
             </ul>
           </div>
-          <div class="skill-category">
+          <!-- <div class="skill-category">
             <h3><i class="fas fa-microchip"></i> FPGA & Digital Logic</h3>
             <ul class="skill-list">
               <li><i class="fas fa-check"></i> Verilog / VHDL</li>
@@ -779,7 +796,7 @@
               <li><i class="fas fa-check"></i> ALU, Registers, FSM Design</li>
               <li><i class="fas fa-check"></i> Simulation & Debugging</li>
             </ul>
-          </div>
+          </div> -->
           <div class="skill-category">
             <h3><i class="fas fa-tools"></i> Tools & Others</h3>
             <ul class="skill-list">
@@ -809,23 +826,24 @@
           <!-- Line Follower & Maze Solver -->
           <div class="project-card">
             <div class="project-image">
-              <i class="fas fa-robot"></i>
+              <img src="/images/project_001_003.jpeg" alt="" srcset="">
             </div>
             <div class="project-content">
               <h3>Line Follower & Maze Solver Robot</h3>
               <p>
-                Autonomous robot capable of line following and maze solving using
-                IR sensors, PID control, and dynamic path logic.
+                ESP32-based robot with FreeRTOS, supporting Bluetooth RC, line
+                following, and maze-solving modes with real-time OLED feedback.
               </p>
               <div class="project-tags">
-                <span class="project-tag">Arduino</span>
-                <span class="project-tag">Embedded C</span>
-                <span class="project-tag">Robotics</span>
-                <span class="project-tag">Sensors</span>
+                <span class="project-tag">ESP32</span>
+                <span class="project-tag">FreeRTOS</span>
+                <span class="project-tag">C/C++</span>
+                <span class="project-tag">IR Sensors</span>
+                <span class="project-tag">Autonomous Robot</span>
               </div>
-              <a href="#" class="project-link"
-                >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              <a href="project_001.html" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
 
@@ -835,48 +853,54 @@
               <i class="fas fa-tachometer-alt"></i>
             </div>
             <div class="project-content">
-              <h3>Real-Time Sensor Dashboard (ESP32)</h3>
+              <h3>ESP32 Sensor Dashboard App</h3>
               <p>
-                IoT dashboard collecting live sensor data over Wi-Fi and
-                visualizing it using a Node.js backend and real-time updates.
+                Android app in Kotlin with MVVM and Jetpack Compose that
+                displays real-time readings from LDR, Potentiometer, and
+                Ultrasonic sensors via ESP32.
               </p>
               <div class="project-tags">
                 <span class="project-tag">ESP32</span>
+                <span class="project-tag">Kotlin</span>
+                <span class="project-tag">MVVM</span>
+                <span class="project-tag">Jetpack Compose</span>
                 <span class="project-tag">IoT</span>
-                <span class="project-tag">Node.js</span>
-                <span class="project-tag">WebSockets</span>
               </div>
-              <a href="#" class="project-link"
-                >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              <a href="project_003.html" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
 
           <!-- Digital Clock using RTOS -->
           <div class="project-card">
             <div class="project-image">
-              <i class="fas fa-clock"></i>
+              <img src="/images/project_002_001.jpeg" alt="" srcset="">
             </div>
             <div class="project-content">
-              <h3>Digital Clock using FreeRTOS (ESP32)</h3>
+              <h3>ESP32 Smart Watch with RTOS</h3>
               <p>
-                RTOS-based clock with multitasking, queues, semaphore usage, and
-                precise timing using hardware timers.
+                DIY smartwatch with GC9A01 display, NTP-synced clock, SD card
+                storage, and HTTP file server, built using ESP32 and FreeRTOS
+                for smooth multitasking.
               </p>
               <div class="project-tags">
                 <span class="project-tag">ESP32</span>
                 <span class="project-tag">FreeRTOS</span>
-                <span class="project-tag">Embedded C</span>
-                <span class="project-tag">Multi-tasking</span>
+                <span class="project-tag">C / C++</span>
+                <span class="project-tag">HTTP Server</span>
+                <span class="project-tag">SD Card</span>
+                <span class="project-tag">GC9A01 Display</span>
+                <span class="project-tag">Multitasking</span>
               </div>
-              <a href="#" class="project-link"
-                >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              <a href="/project_002.html" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
 
           <!-- 8-bit CPU on FPGA -->
-          <div class="project-card">
+          <!-- <div class="project-card">
             <div class="project-image">
               <i class="fas fa-microchip"></i>
             </div>
@@ -896,10 +920,10 @@
                 >View Project <i class="fas fa-arrow-right"></i
               ></a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Custom LLM -->
-          <div class="project-card">
+          <!-- <div class="project-card">
             <div class="project-image">
               <i class="fas fa-brain"></i>
             </div>
@@ -919,7 +943,7 @@
                 >View Project <i class="fas fa-arrow-right"></i
               ></a>
             </div>
-          </div>
+          </div> -->
 
           <!-- Rockfall Prediction Model -->
           <div class="project-card">
@@ -929,8 +953,8 @@
             <div class="project-content">
               <h3>Rockfall Prediction ML Model</h3>
               <p>
-                Developed a spatio-temporal ML model using parallel transformer
-                layers for predicting rockfall displacement vectors.
+                Spatio-temporal Transformer model predicting rockfall
+                displacement for real-time hazard assessment.
               </p>
               <div class="project-tags">
                 <span class="project-tag">PyTorch</span>
@@ -938,14 +962,14 @@
                 <span class="project-tag">Time-Series</span>
                 <span class="project-tag">Transformers</span>
               </div>
-              <a href="#" class="project-link"
-                >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              <a href="/project_005.html" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
 
           <!-- Hostel App -->
-          <div class="project-card">
+          <!-- <div class="project-card">
             <div class="project-image">
               <i class="fas fa-building"></i>
             </div>
@@ -961,11 +985,11 @@
                 <span class="project-tag">REST API</span>
                 <span class="project-tag">Authentication</span>
               </div>
-              <a href="#" class="project-link"
+              <a href="/project_004.html" class="project-link"
                 >View Project <i class="fas fa-arrow-right"></i
               ></a>
             </div>
-          </div>
+          </div> -->
 
           <!-- College Tech Fest Website -->
           <div class="project-card">
@@ -973,20 +997,21 @@
               <i class="fas fa-globe"></i>
             </div>
             <div class="project-content">
-              <h3>College Tech Fest Website</h3>
+              <h3>College Techfest Website</h3>
               <p>
-                Responsive website for event announcements, registrations, and
-                live updates for the annual tech fest.
+                A full-stack web platform for managing techfest events,
+                registrations, and real-time updates.
               </p>
               <div class="project-tags">
-                <span class="project-tag">HTML</span>
-                <span class="project-tag">CSS</span>
-                <span class="project-tag">JavaScript</span>
-                <span class="project-tag">UI/UX</span>
+                <span class="project-tag">Node.js</span>
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">PostgreSQL</span>
+                <span class="project-tag">REST API</span>
+                <span class="project-tag">Responsive UI</span>
               </div>
-              <a href="#" class="project-link"
-                >View Project <i class="fas fa-arrow-right"></i
-              ></a>
+              <a href="/project_006.html" class="project-link">
+                View Project <i class="fas fa-arrow-right"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -997,7 +1022,7 @@
     </section>
 
     <!-- Current Project Section -->
-    <section id="current-project">
+    <!-- <section id="current-project">
       <h2 class="section-title">Current Project</h2>
       <div class="current-project">
         <span class="project-status">IN PROGRESS</span>
@@ -1019,7 +1044,7 @@
         <p><strong>Progress:</strong> 60% complete</p>
         <p><strong>Expected Launch:</strong> December 2024</p>
       </div>
-    </section>
+    </section> -->
 
     <!-- Connect Section -->
     <section id="connect">
@@ -1029,7 +1054,9 @@
           <i class="fas fa-envelope"></i>
           <h3>Email Me</h3>
           <p>Get in touch for collaborations or inquiries</p>
-          <a href="mailto:adarsh.meshram@example.com">adarsh.meshram@example.com</a>
+          <a href="mailto:adarsh.meshram@example.com"
+            >adarsh.meshram@example.com</a
+          >
         </div>
         <div class="connect-card">
           <i class="fas fa-calendar-alt"></i>
@@ -1058,7 +1085,9 @@
       <div class="footer-content">
         <div class="footer-logo">Adarsh Meshram</div>
         <p>Building the future, one line of code at a time</p>
-        <p class="copyright">&copy; 2024 Adarsh Meshram. All rights reserved.</p>
+        <p class="copyright">
+          &copy; 2024 Adarsh Meshram. All rights reserved.
+        </p>
       </div>
     </footer>
 
@@ -1190,60 +1219,85 @@
       });
 
       // Horizontal scroll functionality for skills
-      const skillsScrollWrapper = document.getElementById('skillsScrollWrapper');
-      const skillsScrollLeft = document.getElementById('skillsScrollLeft');
-      const skillsScrollRight = document.getElementById('skillsScrollRight');
+      const skillsScrollWrapper = document.getElementById(
+        "skillsScrollWrapper"
+      );
+      const skillsScrollLeft = document.getElementById("skillsScrollLeft");
+      const skillsScrollRight = document.getElementById("skillsScrollRight");
 
-      skillsScrollLeft.addEventListener('click', () => {
+      skillsScrollLeft.addEventListener("click", () => {
         skillsScrollWrapper.scrollBy({
           left: -300,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       });
 
-      skillsScrollRight.addEventListener('click', () => {
+      skillsScrollRight.addEventListener("click", () => {
         skillsScrollWrapper.scrollBy({
           left: 300,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       });
 
       // Horizontal scroll functionality for projects
-      const projectsScrollWrapper = document.getElementById('projectsScrollWrapper');
-      const projectsScrollLeft = document.getElementById('projectsScrollLeft');
-      const projectsScrollRight = document.getElementById('projectsScrollRight');
+      const projectsScrollWrapper = document.getElementById(
+        "projectsScrollWrapper"
+      );
+      const projectsScrollLeft = document.getElementById("projectsScrollLeft");
+      const projectsScrollRight = document.getElementById(
+        "projectsScrollRight"
+      );
 
-      projectsScrollLeft.addEventListener('click', () => {
+      projectsScrollLeft.addEventListener("click", () => {
         projectsScrollWrapper.scrollBy({
           left: -350,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       });
 
-      projectsScrollRight.addEventListener('click', () => {
+      projectsScrollRight.addEventListener("click", () => {
         projectsScrollWrapper.scrollBy({
           left: 350,
-          behavior: 'smooth'
+          behavior: "smooth",
         });
       });
 
       // Hide scroll buttons when at the edges
       function updateScrollButtons(wrapper, leftBtn, rightBtn) {
-        leftBtn.style.display = wrapper.scrollLeft <= 10 ? 'none' : 'flex';
-        rightBtn.style.display = wrapper.scrollLeft >= (wrapper.scrollWidth - wrapper.clientWidth - 10) ? 'none' : 'flex';
+        leftBtn.style.display = wrapper.scrollLeft <= 10 ? "none" : "flex";
+        rightBtn.style.display =
+          wrapper.scrollLeft >= wrapper.scrollWidth - wrapper.clientWidth - 10
+            ? "none"
+            : "flex";
       }
 
-      skillsScrollWrapper.addEventListener('scroll', () => {
-        updateScrollButtons(skillsScrollWrapper, skillsScrollLeft, skillsScrollRight);
+      skillsScrollWrapper.addEventListener("scroll", () => {
+        updateScrollButtons(
+          skillsScrollWrapper,
+          skillsScrollLeft,
+          skillsScrollRight
+        );
       });
 
-      projectsScrollWrapper.addEventListener('scroll', () => {
-        updateScrollButtons(projectsScrollWrapper, projectsScrollLeft, projectsScrollRight);
+      projectsScrollWrapper.addEventListener("scroll", () => {
+        updateScrollButtons(
+          projectsScrollWrapper,
+          projectsScrollLeft,
+          projectsScrollRight
+        );
       });
 
       // Initial check for scroll buttons
-      updateScrollButtons(skillsScrollWrapper, skillsScrollLeft, skillsScrollRight);
-      updateScrollButtons(projectsScrollWrapper, projectsScrollLeft, projectsScrollRight);
+      updateScrollButtons(
+        skillsScrollWrapper,
+        skillsScrollLeft,
+        skillsScrollRight
+      );
+      updateScrollButtons(
+        projectsScrollWrapper,
+        projectsScrollLeft,
+        projectsScrollRight
+      );
     </script>
   </body>
 </html>

@@ -176,11 +176,11 @@
       .project-image {
         width: 100%;
         height: 400px;
-        background: linear-gradient(
+        /* background: linear-gradient(
           135deg,
           var(--primary),
           var(--primary-dark)
-        );
+        ); */
         border-radius: 15px;
         display: flex;
         align-items: center;
@@ -190,6 +190,13 @@
         margin-bottom: 3rem;
         position: relative;
         overflow: hidden;
+        /* object-f; */
+      }
+
+      .project-image img{
+        height: 100%;
+        width: 100%;
+
       }
 
       .project-image:before {
@@ -577,13 +584,14 @@
             solving using real-time sensor feedback.
           </p>
         </div>
-        <a href="#" class="project-link">
+        <!-- <a href="#" class="project-link">
           <i class="fab fa-github"></i> View on GitHub
-        </a>
+        </a> -->
       </div>
 
       <div class="project-image">
-        <i class="fas fa-robot"></i>
+        <!-- <i class="fas fa-robot"></i> -->
+         <img style="object-fit: scale-down;" src="/images/project_001_003.jpeg" alt="" srcset="">
       </div>
     </section>
 
@@ -664,7 +672,7 @@
           </ul>
         </div>
 
-        <div class="content-section">
+        <!-- <div class="content-section">
           <h2><i class="fas fa-code"></i> Technical Implementation</h2>
           <p>
             The platform is built using a microservices architecture to ensure
@@ -678,7 +686,7 @@
             system uses MongoDB for flexible data storage and Redis for caching
             and real-time features.
           </p>
-        </div>
+        </div> -->
 
         <!-- <div class="content-section progress-section">
           <h2><i class="fas fa-tasks"></i> Project Progress</h2>
@@ -696,7 +704,7 @@
           </div>
         </div> -->
 
-        <div class="content-section">
+        <!-- <div class="content-section">
           <h2><i class="fas fa-images"></i> Project Gallery</h2>
           <div class="gallery">
             <div class="gallery-item">Dashboard Preview</div>
@@ -704,7 +712,7 @@
             <div class="gallery-item">Data Visualization</div>
             <div class="gallery-item">Report Generator</div>
           </div>
-        </div>
+        </div> -->
       </div>
 
       <div class="project-sidebar">
@@ -742,12 +750,12 @@
           </div>
         </div>
 
-        <div class="sidebar-card">
+        <!-- <div class="sidebar-card">
           <h3><i class="fas fa-link"></i> Project Links</h3>
           <a href="#" class="project-link" style="margin-bottom: 1rem">
             <i class="fab fa-github"></i> Source Code
           </a>
-          <!-- <a
+           <a
             href="#"
             class="project-link"
             style="
@@ -755,8 +763,8 @@
             "
           >
             <i class="fas fa-external-link-alt"></i> Live Demo
-          </a> -->
-        </div>
+          </a>
+        </div> -->
       </div>
     </section>
 
