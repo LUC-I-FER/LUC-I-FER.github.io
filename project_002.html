@@ -570,13 +570,15 @@
       <div class="project-header">
         <div class="project-title-section">
           <span class="project-status">COMPLETED</span>
-          <h1 class="project-title">Line Follower & Maze Solver Robot</h1>
+          <h1 class="project-title">Smart Watch</h1>
           <p class="project-subtitle">
-            A multi-mode autonomous robot powered by ESP32 and FreeRTOS, capable
-            of Bluetooth control, precise line following, and intelligent maze
-            solving using real-time sensor feedback.
+            A custom-built smartwatch powered by the ESP32, featuring a circular
+            GC9A01 display, real-time date and time synchronization via NTP, SD
+            card file storage, and an integrated HTTP-based file server for
+            wireless data access.
           </p>
         </div>
+
         <a href="#" class="project-link">
           <i class="fab fa-github"></i> View on GitHub
         </a>
@@ -591,25 +593,28 @@
     <section class="project-details">
       <div class="project-content">
         <div class="content-section">
-          <h2>
-            <i class="fas fa-info-circle"></i> Line Follower with Maze Solver
-          </h2>
+          <h2><i class="fas fa-info-circle"></i> Smart Watch</h2>
           <p>
-            The Line Follower with Maze Solver Robot is an intelligent,
-            multi-mode autonomous system capable of operating in three distinct
-            modes — Bluetooth control, line following, and full maze solving.
-            Powered by the ESP32 and built on a robust FreeRTOS architecture,
-            the robot performs real-time sensor processing, motor control, and
-            decision-making with high accuracy.
+            The Smart Watch is a compact wearable device built around the ESP32,
+            designed to deliver real-time timekeeping, wireless data access, and
+            a smooth user interface. It features a vibrant GC9A01 circular TFT
+            display and synchronizes date and time using NTP servers
+            (pool.ntp.org) to ensure highly accurate clock performance.
           </p>
           <p>
-            Equipped with an IR sensor array, N20 motors, TB motor driver, dual
-            Li-Po cells, and an OLED display, the robot can reliably track
-            paths, handle complex maze intersections, and switch modes
-            seamlessly using a reset-based mode selection mechanism. The system
-            emphasizes modularity, high responsiveness, and efficient task
-            scheduling, enabling smooth navigation and autonomous behavior in
-            diverse scenarios.
+            The system leverages FreeRTOS concepts for task-based scheduling,
+            enabling parallel execution of display updates, time
+            synchronization, Wi-Fi handling, and SD card operations. This
+            ensures consistent responsiveness, minimal latency, and efficient
+            resource utilization.
+          </p>
+          <p>
+            Equipped with an SD card module and a built-in HTTP server, the
+            smartwatch doubles as a wireless file storage system, allowing users
+            to upload, download, and manage files directly through a web
+            browser. With its modular architecture, real-time capabilities, and
+            clean design, the project demonstrates a robust and fully functional
+            DIY smartwatch platform.
           </p>
         </div>
 
@@ -619,48 +624,55 @@
             <li>
               <i class="fas fa-check"></i>
               <div>
-                <strong>Multi-Mode Operation:</strong> Three operating modes —
-                Bluetooth RC mode, autonomous line follower mode, and
-                intelligent maze solver mode.
+                <strong>Real-Time Timekeeping:</strong> Automatic date and time
+                synchronization using NTP servers (pool.ntp.org) for high
+                accuracy.
               </div>
             </li>
 
             <li>
               <i class="fas fa-check"></i>
               <div>
-                <strong>FreeRTOS-Based Architecture:</strong> Parallel tasks for
-                sensor processing, motor control, Bluetooth communication, and
-                display updates.
+                <strong>GC9A01 Round Display:</strong> Vibrant 1.28” circular
+                TFT display for watch faces, system status, and UI elements.
               </div>
             </li>
 
             <li>
               <i class="fas fa-check"></i>
               <div>
-                <strong>High-Precision Line Tracking:</strong> IR sensor array
-                with PID-based motor control for smooth and accurate path
-                following.
+                <strong>FreeRTOS-Based Multitasking:</strong> Dedicated tasks
+                for display rendering, NTP synchronization, Wi-Fi handling, and
+                SD card operations ensure smooth and responsive performance.
               </div>
             </li>
 
             <li>
               <i class="fas fa-check"></i>
               <div>
-                <strong>Maze Solving Logic:</strong> Implements left/right-hand
-                rule and decision logging for efficient maze navigation.
+                <strong>Onboard HTTP File Server:</strong> Built-in Wi-Fi web
+                server allowing users to upload, download, and manage files
+                wirelessly through any browser.
               </div>
             </li>
 
             <li>
               <i class="fas fa-check"></i>
               <div>
-                <strong>Reset-Based Mode Switching:</strong> Cyclic mode
-                switching using non-volatile memory (EEPROM) without
-                external buttons.
+                <strong>SD Card Storage System:</strong> Acts as a portable
+                personal storage device with support for file reads, writes, and
+                directory management.
               </div>
             </li>
 
-
+            <li>
+              <i class="fas fa-check"></i>
+              <div>
+                <strong>Modular Firmware Design:</strong> Clean task separation
+                with message queues, semaphores, and shared resources for
+                stability and efficient real-time performance.
+              </div>
+            </li>
           </ul>
         </div>
 
@@ -714,13 +726,19 @@
             <span class="tech-tag">ESP32</span>
             <span class="tech-tag">FreeRTOS</span>
             <span class="tech-tag">C / C++</span>
-            <span class="tech-tag">Arduino Framework</span>
-            <span class="tech-tag">IR Sensor Array</span>
-            <span class="tech-tag">TB6612 Motor Driver</span>
-            <span class="tech-tag">N20 Gear Motors</span>
-            <span class="tech-tag">OLED Display (I2C)</span>
-            <span class="tech-tag">Bluetooth Communication</span>
-            <span class="tech-tag">Li-Po Power System</span>
+            <span class="tech-tag">Platform IO Framework</span>
+
+            <span class="tech-tag">GC9A01 Round TFT Display</span>
+            <span class="tech-tag">SD Card Module</span>
+            <span class="tech-tag">HTTP Web Server</span>
+            <span class="tech-tag">Wi-Fi Communication</span>
+
+            <span class="tech-tag">NTP Time Sync</span>
+            <span class="tech-tag">SPI Interface</span>
+            <span class="tech-tag">RTC (Software / NTP)</span>
+
+            <span class="tech-tag">Li-Po Battery</span>
+            <span class="tech-tag">Buck Converter</span>
           </div>
         </div>
 
