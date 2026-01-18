@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "title": "Line Follower & Maze Solver",
+      "description": "ESP32-based robot with FreeRTOS, supporting Bluetooth RC, line following, and maze-solving modes with real-time OLED feedback.",
+      "tags": ["ESP-32", "FreeRTOS", "C/C++", "IR Sensors"],
+      "image": "assets/line_follower.jpeg",
+      "source": "https://github.com/LUC-I-FER/Line_Follower_001",
+      "demo": null
+    },
+    {
+      "title": "Smart Watch with RTOS",
+      "description": "DIY smartwatch with GC9A01 display, NTP-synced clock, SD card storage, and HTTP file server, built using ESP32 and FreeRTOS for smooth multitasking. ",
+      "tags": ["ESP-32", "FreeRTOS", "C/C++", "HTTP", "SD Card", "GC9A01 Display", "Multitasking"],
+      "image": "assets/smart_watch.jpeg",
+      "source": "https://github.com/LUC-I-FER/Smart_Watch_001",
+      "demo": null
+    },
+    {
+      "title": "Rockfall Prediction ML Model",
+      "description": "Spatio-temporal Transformer model predicting rockfall displacement for real-time hazard assessment.",
+      "tags": ["PyTorch", "Machine Learning", "Time-Series", "Transformers"],
+      "image": "assets/images/iot-system.jpg",
+      "source": "https://github.com/adarsh/smart-home-iot",
+      "demo": null
+    },
+    {
+      "title": "ESP32 Sensor Dashboard App",
+      "description": "Android app in Kotlin with MVVM and Jetpack Compose that displays real-time readings from LDR, Potentiometer, and Ultrasonic sensors via ESP32. ",
+      "tags": ["ESP32", "Kotlin", "MVVM", "Jetpack Compose", "IoT"],
+      "image": "assets/images/rtos-analyzer.jpg",
+      "source": "https://github.com/adarsh/rtos-analyzer",
+      "demo": null
+    }
+  ]
+}

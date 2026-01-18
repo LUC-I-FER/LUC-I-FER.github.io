@@ -1,0 +1,40 @@
+{
+  "research": [
+    {
+      "title": "AI-Driven Circuit Optimization using Large Language Models",
+      "abstract": "This paper explores the novel application of large language models for automated circuit optimization in electronic design automation. We present a framework that uses transformer-based models to generate optimized netlists, predict circuit performance, and explore design spaces. Experimental results show a 30% improvement in optimization speed compared to traditional methods.",
+      "status": "Published",
+      "year": "2025",
+      "tags": ["EDA", "AI", "LLMs", "Circuit Design", "Optimization"],
+      "links": [
+        { "label": "PDF", "url": "#" },
+        { "label": "DOI", "url": "#" },
+        { "label": "Code", "url": "https://github.com/adarsh/circuit-optimization" },
+        { "label": "GitHub", "url": "https://github.com/adarsh/circuit-optimization" }
+      ]
+    },
+    {
+      "title": "Performance Analysis of Real-Time Operating System Scheduling Algorithms in Embedded Applications",
+      "abstract": "A comprehensive comparative study of fixed-priority and dynamic scheduling algorithms in modern real-time operating systems. The research focuses on latency, jitter, and predictability metrics in embedded applications with varying workloads. Our findings provide guidelines for selecting optimal scheduling policies based on application requirements.",
+      "status": "Under Review",
+      "year": "2026",
+      "tags": ["RTOS", "Embedded Systems", "Scheduling", "Performance Analysis"],
+      "links": [
+        { "label": "Preprint", "url": "#" },
+        { "label": "Code", "url": "https://github.com/adarsh/rtos-scheduling-benchmarks" }
+      ]
+    },
+    {
+      "title": "Energy-Efficient IoT Architecture for Edge Computing Applications",
+      "abstract": "This research proposes a novel IoT architecture that optimizes energy consumption while maintaining low latency for edge computing applications. The design incorporates adaptive sampling rates, predictive sleep scheduling, and efficient data transmission protocols. Field tests show a 45% reduction in energy consumption compared to conventional architectures.",
+      "status": "Published",
+      "year": "2024",
+      "tags": ["IoT", "Edge Computing", "Energy Efficiency", "Embedded Systems"],
+      "links": [
+        { "label": "PDF", "url": "#" },
+        { "label": "DOI", "url": "#" },
+        { "label": "GitHub", "url": "https://github.com/adarsh/iot-energy-optimization" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "title": "Frontend",
+      "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"]
+    },
+    {
+      "title": "Backend",
+      "items": ["Node.js", "Express.js", "Django", "Flask", "MongoDB", "PostgreSQL", "REST APIs"]
+    },
+    {
+      "title": "AI/ML",
+      "items": ["Python (PyTorch, NumPy, Pandas)", "Transformer Models & LLMs"]
+    },
+    {
+      "title": "Embedded Systems",
+      "items": ["Embedded C / C++", "ESP32, Arduino, STM32 (Basics)", "FreeRTOS (Tasks, Queues, Timers)", "I2C, SPI, PWM, Interrupts", "Sensors & Actuators Integration", "Wireless Communication (Wi-Fi, RF 433MHz)", "PCB Design using KiCad"]
+    },
+    {
+      "title": "Tools & Others",
+      "items": ["Git", "Linux", "KiCad", "Postman, VS Code, Docker (Basics) "]
+    }
+  ]
+}
