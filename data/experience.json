@@ -1,154 +1,177 @@
+
+
 {
   "experiences": [
     {
       "id": 1,
-      "type": "internship",
-      "title": "Embedded Systems Engineer Intern",
-      "company": "Intel Corporation",
-      "companyLogo": "assets/images/intel-logo.png",
-      "location": "Bangalore, India",
-      "duration": "Jun 2024 - Aug 2024",
-      "startDate": "2024-06-01",
-      "endDate": "2024-08-31",
-      "image": "assets/images/intel-internship.jpg",
-      "description": "Worked on developing firmware for next-generation IoT devices, focusing on power optimization and real-time performance. Contributed to the development of low-level drivers and participated in code reviews and testing procedures.",
-      "fullDescription": "As an Embedded Systems Engineer Intern at Intel, I was part of the IoT Solutions Group working on next-generation IoT devices. My primary focus was on power optimization and real-time performance enhancements for embedded systems.\n\nDuring my internship, I developed and optimized firmware for ARM Cortex-M4 based microcontrollers, implementing low-power sleep modes that reduced energy consumption by 40%. I created custom low-level drivers for various sensors and communication protocols including I2C, SPI, and UART.\n\nI actively participated in agile development processes, including daily stand-ups, sprint planning, and code reviews. I also contributed to the documentation of API interfaces and created comprehensive test cases for firmware validation.",
+      "type": "education",
+      "title": "Bachelor of Engineering in Electronics & Telecommunication",
+      "company": "Vidyalankar Institute of Technology",
+      "companyLogo": "assets/images/vit-logo.png",
+      "location": "Mumbai, India",
+      "duration": "2023 - Present",
+      "startDate": "2023-08-01",
+      "endDate": null,
+      "image": "assets/images/vit-campus.jpg",
+      "description": "Electronics Engineering student specializing in embedded systems, firmware development, and IoT solutions.",
+      "fullDescription": "Currently pursuing a Bachelor of Engineering in Electronics & Telecommunication at Vidyalankar Institute of Technology. My academic focus includes embedded systems, microcontroller programming, RTOS, IoT architectures, and hardware–software integration.\n\nI actively work on hands-on projects involving ESP32, PCB design, real-time systems, and full-stack development. I maintain a strong CGPA of 8.0/10, placing me in the top 20% of my class.",
       "highlights": [
-        "Reduced power consumption by 40% through optimized sleep modes",
-        "Developed 5+ custom drivers for sensor integration",
-        "Participated in 15+ code reviews and contributed to best practices",
-        "Created comprehensive test suite with 95% code coverage",
-        "Collaborated with hardware team on PCB design reviews"
+        "CGPA: 8.0 / 10 (Top 20%)",
+        "Strong focus on embedded systems and IoT",
+        "Hands-on project-based learning approach",
+        "Active participation in technical clubs and events"
       ],
-      "technologies": ["C/C++", "ARM Cortex", "FreeRTOS", "I2C/SPI", "Python", "Git"],
-      "certificate": "assets/certificates/intel-internship.pdf",
-      "certificateUrl": "#",
-      "skillsGained": ["Embedded Systems", "Firmware Development", "Power Optimization", "RTOS", "Hardware-Software Integration"]
+      "technologies": ["ESP32", "Embedded C", "C++", "FreeRTOS", "IoT", "PCB Design"],
+      "skillsGained": [
+        "Embedded Systems",
+        "Firmware Development",
+        "RTOS",
+        "Hardware-Software Integration",
+        "Problem Solving"
+      ]
     },
+
     {
       "id": 2,
-      "type": "job",
-      "title": "Full-Stack Developer",
-      "company": "Tech Innovations Pvt Ltd",
-      "companyLogo": "assets/images/tech-innovations-logo.png",
+      "type": "leadership",
+      "title": "Software Head",
+      "company": "V Clubs Committee",
+      "companyLogo": "assets/images/vclubs-logo.png",
       "location": "Mumbai, India",
-      "duration": "Jan 2023 - Present",
-      "startDate": "2023-01-15",
-      "endDate": null,
-      "image": "assets/images/tech-innovations-job.jpg",
-      "description": "Leading development of web applications with React frontend and Node.js backend. Implementing scalable architectures and mentoring junior developers.",
-      "fullDescription": "As a Full-Stack Developer at Tech Innovations, I lead the development of enterprise web applications using modern technologies. I'm responsible for architecting scalable solutions, implementing robust backend APIs, and creating intuitive user interfaces.\n\nI developed a microservices architecture using Node.js and Express, reducing system latency by 60%. Implemented real-time features using WebSockets and Redis for caching, improving application performance significantly.\n\nI mentor a team of 3 junior developers, conducting code reviews and providing technical guidance. I also collaborate with UX designers and product managers to translate requirements into technical specifications.",
+      "duration": "2024 - 2025",
+      "startDate": "2024-01-01",
+      "endDate": "2025-03-31",
+      "image": "assets/images/techfest-website.jpg",
+      "description": "Led end-to-end development of the college tech-fest platform and backend systems.",
+      "fullDescription": "As Software Head of the V Clubs Committee, I led the complete development lifecycle of the college tech-fest platform. I designed and implemented RESTful APIs, authentication mechanisms, and database schemas while managing a team of developers.\n\nI ensured timely delivery, system scalability, and high availability during peak traffic events.",
       "highlights": [
-        "Reduced system latency by 60% with microservices architecture",
-        "Increased application performance by implementing Redis caching",
-        "Mentored 3 junior developers, improving team productivity",
-        "Implemented CI/CD pipeline reducing deployment time by 70%",
-        "Led migration from monolithic to microservices architecture"
+        "Led a team of 5 developers",
+        "Reduced server response time by 30%",
+        "Integrated JWT authentication and REST APIs",
+        "Handled 50+ concurrent transactions",
+        "Delivered project 2 weeks ahead of schedule"
       ],
-      "technologies": ["React", "Node.js", "Express", "MongoDB", "Redis", "Docker", "AWS"],
-      "certificate": null,
-      "certificateUrl": null,
-      "skillsGained": ["Microservices", "System Architecture", "Team Leadership", "DevOps", "Cloud Computing"]
+      "technologies": [
+        "Node.js",
+        "Express.js",
+        "PostgreSQL",
+        "JWT",
+        "REST APIs",
+        "Render"
+      ],
+      "skillsGained": [
+        "Team Leadership",
+        "Backend Architecture",
+        "Project Management",
+        "API Design",
+        "Agile Development"
+      ]
     },
+
     {
       "id": 3,
-      "type": "certification",
-      "title": "AWS Certified Solutions Architect",
-      "company": "Amazon Web Services",
-      "companyLogo": "assets/images/aws-logo.png",
-      "location": "Online",
-      "duration": "Issued Dec 2023",
-      "startDate": "2023-12-15",
-      "endDate": "2026-12-15",
-      "image": "assets/images/aws-certification.jpg",
-      "description": "Professional certification demonstrating expertise in designing distributed systems on AWS platform.",
-      "fullDescription": "The AWS Certified Solutions Architect - Professional certification validates advanced technical skills and experience in designing distributed systems and applications on the AWS platform.\n\nThis certification demonstrates my ability to:\n- Design and deploy dynamically scalable, highly available, fault-tolerant, and reliable applications on AWS\n- Select appropriate AWS services to design and deploy an application based on given requirements\n- Migrate complex, multi-tier applications on AWS\n- Design and deploy enterprise-wide scalable operations on AWS\n- Implement cost-control strategies\n\nI successfully passed the certification exam after extensive preparation, including hands-on experience with various AWS services and architectural patterns.",
+      "type": "project",
+      "title": "Smart WiFi Digital Watch (ESP32)",
+      "company": "Personal Project",
+      "companyLogo": "assets/images/esp32-logo.png",
+      "location": "Mumbai, India",
+      "duration": "Nov 2024 - Jan 2025",
+      "startDate": "2024-11-01",
+      "endDate": "2025-01-31",
+      "image": "assets/images/smart-watch-project.jpg",
+      "description": "ESP32-based smart digital watch with WiFi time sync and power-optimized firmware.",
+      "fullDescription": "Designed and developed a smart WiFi-enabled digital watch using ESP32 and GC9A01 display. Implemented NTP-based time synchronization achieving 95% accuracy.\n\nOptimized firmware using deep sleep modes, extending battery life by 3x. Built an HTTP-based file system managing 50+ files on SD card with high reliability.",
       "highlights": [
-        "Expertise in designing scalable and fault-tolerant systems",
-        "Deep knowledge of AWS services and best practices",
-        "Ability to migrate complex applications to AWS",
-        "Cost optimization strategies for cloud infrastructure",
-        "Security implementation and compliance"
+        "95% accurate NTP time synchronization",
+        "3x battery life improvement",
+        "HTTP-based file system with 99% reliability",
+        "Integrated RTC, stopwatch, and alarm features"
       ],
-      "technologies": ["AWS EC2", "S3", "RDS", "Lambda", "VPC", "CloudFormation", "IAM"],
-      "certificate": "assets/certificates/aws-solutions-architect.pdf",
-      "certificateUrl": "https://www.credly.com/badges/aws-certified",
-      "skillsGained": ["Cloud Architecture", "AWS Services", "System Design", "Security", "Cost Optimization"]
+      "technologies": [
+        "ESP32",
+        "Embedded C/C++",
+        "HTTP",
+        "NTP",
+        "FreeRTOS",
+        "GC9A01 Display"
+      ],
+      "skillsGained": [
+        "Firmware Optimization",
+        "Low Power Design",
+        "Embedded UI Development",
+        "IoT Communication"
+      ]
     },
+
     {
       "id": 4,
-      "type": "internship",
-      "title": "AI Research Intern",
-      "company": "Google AI Research",
-      "companyLogo": "assets/images/google-logo.png",
-      "location": "Remote",
-      "duration": "May 2023 - Jul 2023",
-      "startDate": "2023-05-01",
-      "endDate": "2023-07-31",
-      "image": "assets/images/google-ai-internship.jpg",
-      "description": "Research internship focusing on machine learning optimization for edge devices. Developed novel algorithms for model compression.",
-      "fullDescription": "As an AI Research Intern at Google AI Research, I worked on optimizing machine learning models for deployment on edge devices with limited computational resources. My research focused on model compression techniques and efficient inference algorithms.\n\nI developed a novel quantization-aware training algorithm that reduced model size by 75% while maintaining 98% of the original accuracy. This research was published in an internal technical report and contributed to Google's Edge AI initiatives.\n\nI collaborated with senior researchers on implementing federated learning protocols for privacy-preserving model training. I also created benchmarking tools to evaluate model performance across different hardware platforms.",
+      "type": "project",
+      "title": "Autonomous Line Follower & Maze Solver Robot",
+      "company": "Academic Project",
+      "companyLogo": "assets/images/robotics-logo.png",
+      "location": "Mumbai, India",
+      "duration": "Sep 2024 - Oct 2024",
+      "startDate": "2024-09-01",
+      "endDate": "2024-10-31",
+      "image": "assets/images/maze-robot.jpg",
+      "description": "ESP32-based autonomous robot with line following and maze-solving capabilities.",
+      "fullDescription": "Designed a custom PCB and developed firmware using FreeRTOS for an autonomous robot capable of line following and maze solving. Implemented a recursive backtracking algorithm achieving 95% maze-solving accuracy.\n\nIntegrated WiFi-based real-time control interface with latency under 100ms.",
       "highlights": [
-        "Developed quantization algorithm reducing model size by 75%",
-        "Maintained 98% accuracy with compressed models",
-        "Contributed to federated learning research",
-        "Created benchmarking suite for edge AI evaluation",
-        "Published internal technical report"
+        "95% maze-solving accuracy",
+        "Custom PCB design",
+        "FreeRTOS-based multitasking",
+        "WiFi control with <100ms latency",
+        "90% line-following precision"
       ],
-      "technologies": ["Python", "TensorFlow", "PyTorch", "C++", "OpenCV", "MLOps"],
-      "certificate": "assets/certificates/google-ai-internship.pdf",
-      "certificateUrl": "#",
-      "skillsGained": ["Machine Learning", "Model Optimization", "Research Methodology", "Edge Computing", "Federated Learning"]
+      "technologies": [
+        "ESP32",
+        "FreeRTOS",
+        "Embedded C++",
+        "WiFi",
+        "TB6612 Motor Driver",
+        "IR Sensors"
+      ],
+      "skillsGained": [
+        "Robotics",
+        "Control Systems",
+        "PCB Design",
+        "Real-Time Systems",
+        "Algorithm Design"
+      ]
     },
+
     {
       "id": 5,
-      "type": "certification",
-      "title": "NVIDIA Deep Learning Institute Certificate",
-      "company": "NVIDIA",
-      "companyLogo": "assets/images/nvidia-logo.png",
-      "location": "Online",
-      "duration": "Issued Sep 2023",
-      "startDate": "2023-09-10",
-      "endDate": null,
-      "image": "assets/images/nvidia-certification.jpg",
-      "description": "Certification in deep learning and GPU-accelerated computing for AI applications.",
-      "fullDescription": "The NVIDIA Deep Learning Institute certification provides comprehensive training in deep learning and GPU-accelerated computing. This certification covers fundamental concepts and practical applications of deep learning across various domains.\n\nKey areas covered include:\n- Fundamentals of deep learning and neural networks\n- Convolutional Neural Networks (CNNs) for computer vision\n- Recurrent Neural Networks (RNNs) for sequence data\n- GPU programming with CUDA\n- Optimizing deep learning models for inference\n- Deploying models in production environments\n\nThrough hands-on labs and projects, I gained practical experience in building, training, and deploying deep learning models using NVIDIA's ecosystem of tools and libraries.",
-      "highlights": [
-        "Comprehensive understanding of deep learning fundamentals",
-        "Hands-on experience with GPU-accelerated computing",
-        "Practical knowledge of CNN and RNN architectures",
-        "Experience with NVIDIA's deep learning stack",
-        "Model deployment and optimization techniques"
-      ],
-      "technologies": ["PyTorch", "TensorFlow", "CUDA", "cuDNN", "TensorRT", "DALI"],
-      "certificate": "assets/certificates/nvidia-dli-certificate.pdf",
-      "certificateUrl": "https://courses.nvidia.com/certificates",
-      "skillsGained": ["Deep Learning", "GPU Programming", "Computer Vision", "NLP", "Model Deployment"]
-    },
-    {
-      "id": 6,
-      "type": "job",
-      "title": "Freelance EDA Consultant",
-      "company": "Self-Employed",
-      "companyLogo": "assets/images/freelance-logo.png",
+      "type": "project",
+      "title": "ESP32 Sensor Dashboard Mobile App",
+      "company": "Personal Project",
+      "companyLogo": "assets/images/android-logo.png",
       "location": "Remote",
-      "duration": "Jan 2022 - Present",
-      "startDate": "2022-01-01",
-      "endDate": null,
-      "image": "assets/images/eda-consulting.jpg",
-      "description": "Providing Electronic Design Automation consulting services to startups and small businesses. Specializing in PCB design and verification.",
-      "fullDescription": "As a freelance EDA Consultant, I provide Electronic Design Automation services to startups and small businesses in the hardware space. I specialize in PCB design, circuit simulation, and design verification.\n\nI've worked with 10+ clients across various industries, delivering complete hardware solutions from concept to production. Services include:\n- Schematic design and capture\n- PCB layout and routing\n- Signal integrity analysis\n- Power integrity optimization\n- Design for Manufacturing (DFM) reviews\n- Thermal analysis and management\n\nI use industry-standard tools like Altium Designer, Cadence, and SPICE simulation tools to ensure high-quality designs that meet client specifications and manufacturing requirements.",
+      "duration": "Apr 2025 - May 2025",
+      "startDate": "2025-04-01",
+      "endDate": "2025-05-31",
+      "image": "assets/images/esp32-dashboard.jpg",
+      "description": "Android application for real-time ESP32 sensor data visualization.",
+      "fullDescription": "Developed a Kotlin-based Android application using MVVM architecture to visualize real-time sensor data from ESP32 devices. Implemented efficient data handling with updates every 500ms and achieved 99.5% data accuracy.\n\nOptimized memory usage and ensured responsive UI across multiple screen sizes.",
       "highlights": [
-        "Completed 15+ PCB designs for various applications",
-        "Improved signal integrity in high-speed designs",
-        "Reduced production costs through DFM optimization",
-        "Successfully delivered projects for diverse industries",
-        "Maintained 100% client satisfaction rate"
+        "Real-time updates every 500ms",
+        "99.5% data accuracy",
+        "25% reduction in memory usage",
+        "MVVM architecture implementation"
       ],
-      "technologies": ["Altium Designer", "Cadence", "SPICE", "Python", "Verilog", "MATLAB"],
-      "certificate": null,
-      "certificateUrl": null,
-      "skillsGained": ["PCB Design", "Circuit Simulation", "Project Management", "Client Relations", "Hardware Testing"]
+      "technologies": [
+        "Kotlin",
+        "Android SDK",
+        "MVVM",
+        "WebSocket",
+        "ESP32"
+      ],
+      "skillsGained": [
+        "Mobile App Development",
+        "IoT Dashboards",
+        "Performance Optimization",
+        "UI/UX Design"
+      ]
     }
   ]
 }
