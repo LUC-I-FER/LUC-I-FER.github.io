@@ -23,14 +23,6 @@
       "image": "assets/images/iot-system.jpg",
       "source": "https://github.com/adarsh/smart-home-iot",
       "demo": null
-    },
-    {
-      "title": "ESP32 Sensor Dashboard App",
-      "description": "Android app in Kotlin with MVVM and Jetpack Compose that displays real-time readings from LDR, Potentiometer, and Ultrasonic sensors via ESP32. ",
-      "tags": ["ESP32", "Kotlin", "MVVM", "Jetpack Compose", "IoT"],
-      "image": "assets/images/rtos-analyzer.jpg",
-      "source": "https://github.com/adarsh/rtos-analyzer",
-      "demo": null
     }
   ]
 }

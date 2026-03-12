@@ -138,40 +138,6 @@
         "Real-Time Systems",
         "Algorithm Design"
       ]
-    },
-
-    {
-      "id": 5,
-      "type": "project",
-      "title": "ESP32 Sensor Dashboard Mobile App",
-      "company": "Personal Project",
-      "companyLogo": "assets/images/android-logo.png",
-      "location": "Remote",
-      "duration": "Apr 2025 - May 2025",
-      "startDate": "2025-04-01",
-      "endDate": "2025-05-31",
-      "image": "assets/image.png",
-      "description": "Android application for real-time ESP32 sensor data visualization.",
-      "fullDescription": "Developed a Kotlin-based Android application using MVVM architecture to visualize real-time sensor data from ESP32 devices. Implemented efficient data handling with updates every 500ms and achieved 99.5% data accuracy.\n\nOptimized memory usage and ensured responsive UI across multiple screen sizes.",
-      "highlights": [
-        "Real-time updates every 500ms",
-        "99.5% data accuracy",
-        "25% reduction in memory usage",
-        "MVVM architecture implementation"
-      ],
-      "technologies": [
-        "Kotlin",
-        "Android SDK",
-        "MVVM",
-        "WebSocket",
-        "ESP32"
-      ],
-      "skillsGained": [
-        "Mobile App Development",
-        "IoT Dashboards",
-        "Performance Optimization",
-        "UI/UX Design"
-      ]
     }
   ]
 }

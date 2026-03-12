@@ -195,3 +195,35 @@ Following thinks i want to display
     }
   ]
 }
+
+"research": [
+    {
+      "title": "FM-Based Digital Audio Transmission System Using a 555 Timer and 433 MHz RF Modules",
+      "abstract": "This paper presents a simple and low-cost FM-based audio transmission system implemented using a 555 timer IC and 433 MHz RF modules. Audio captured through a KY-037 high-sensitivity microphone sensor is injected into the control voltage pin of a 555 timer configured in astable mode, producing a frequency-modulated digital waveform. This FM signal is transmitted wirelessly using ASK/OOK-based RF modules and demodulated at the receiver using a basic RC low-pass filter. Experimental results demonstrate reliable short-range wireless audio transmission with recognizable speech quality, validating the effectiveness of voltage-controlled FM modulation using minimal hardware.",
+      "status": "Presented",
+      "year": "2025",
+      "tags": [
+        "FM Modulation",
+        "555 Timer",
+        "RF Communication",
+        "Wireless Audio",
+        "Embedded Systems",
+        "Electronics"
+      ],
+      "links": [
+        { "label": "PDF", "url": "#" }
+      ],
+      "authors": [
+        {
+          "name": "Adarsh Meshram",
+          "affiliation": "Department of Electronics and Telecommunication Engineering, Vidyalankar Institute of Technology, Mumbai, India",
+          "role": "Student"
+        },
+        {
+          "name": "Vaibhav Pandit",
+          "affiliation": "Department of Electronics and Telecommunication Engineering, Vidyalankar Institute of Technology, Mumbai, India",
+          "role": "Assistant Professor"
+        }
+      ]
+    }
+  ]
