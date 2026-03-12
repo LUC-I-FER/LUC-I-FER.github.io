@@ -1,27 +1,35 @@
 {
   "projects": [
     {
-      "title": "Line Follower & Maze Solver",
-      "description": "ESP32-based robot with FreeRTOS, supporting Bluetooth RC, line following, and maze-solving modes with real-time OLED feedback.",
-      "tags": ["ESP-32", "FreeRTOS", "C/C++", "IR Sensors"],
+      "title": "Autonomous Line Follower & Maze Solver",
+      "description": "ESP32 robot using FreeRTOS with multiple modes including line following, maze solving, and Bluetooth control.",
+      "tags": ["ESP32", "FreeRTOS", "Embedded C/C++", "IR Sensors"],
       "image": "assets/line_follower.jpeg",
       "source": "https://github.com/LUC-I-FER/Line_Follower_001",
       "demo": null
     },
     {
-      "title": "Smart Watch with RTOS",
-      "description": "DIY smartwatch with GC9A01 display, NTP-synced clock, SD card storage, and HTTP file server, built using ESP32 and FreeRTOS for smooth multitasking. ",
-      "tags": ["ESP-32", "FreeRTOS", "C/C++", "HTTP", "SD Card", "GC9A01 Display", "Multitasking"],
+      "title": "RTOS-Based Smartwatch",
+      "description": "ESP32 smartwatch with FreeRTOS multitasking, NTP clock, SD card storage, and embedded HTTP server.",
+      "tags": ["ESP32", "FreeRTOS", "Embedded C/C++", "HTTP", "SD Card"],
       "image": "assets/smart_watch.jpeg",
       "source": "https://github.com/LUC-I-FER/Smart_Watch_001",
       "demo": null
     },
     {
-      "title": "Rockfall Prediction ML Model",
-      "description": "Spatio-temporal Transformer model predicting rockfall displacement for real-time hazard assessment.",
-      "tags": ["PyTorch", "Machine Learning", "Time-Series", "Transformers"],
+      "title": "Rockfall Prediction Model",
+      "description": "Transformer-based PyTorch model for spatio-temporal rockfall displacement prediction.",
+      "tags": ["PyTorch", "Machine Learning", "Transformers", "Time-Series"],
       "image": "assets/images/iot-system.jpg",
       "source": "https://github.com/adarsh/smart-home-iot",
+      "demo": null
+    },
+    {
+      "title": "ESP32 Sensor System with FreeRTOS",
+      "description": "ESP32-based sensor monitoring system using native FreeRTOS tasks and UART communication for real-time data transmission.",
+      "tags": ["ESP32", "FreeRTOS", "Embedded C", "UART", "Real-Time Systems"],
+      "image": "assets/esp_dashboard.jpeg",
+      "source": "https://github.com/LUC-I-FER/ESP_SENSOR_DASHBOARD_001",
       "demo": null
     }
   ]
