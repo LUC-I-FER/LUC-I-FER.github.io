@@ -12,7 +12,7 @@
       "duration": "2023 - Present",
       "startDate": "2023-08-01",
       "endDate": null,
-      "image": "assets/images/vit-campus.jpg",
+      "image": "assets/image.png",
       "description": "Electronics Engineering student specializing in embedded systems, firmware development, and IoT solutions.",
       "fullDescription": "Currently pursuing a Bachelor of Engineering in Electronics & Telecommunication at Vidyalankar Institute of Technology. My academic focus includes embedded systems, microcontroller programming, RTOS, IoT architectures, and hardware–software integration.\n\nI actively work on hands-on projects involving ESP32, PCB design, real-time systems, and full-stack development. I maintain a strong CGPA of 8.0/10, placing me in the top 20% of my class.",
       "highlights": [
@@ -73,12 +73,12 @@
       "type": "project",
       "title": "Smart WiFi Digital Watch (ESP32)",
       "company": "Personal Project",
-      "companyLogo": "assets/images/esp32-logo.png",
+      "companyLogo": "assets/smart_watch.jpeg",
       "location": "Mumbai, India",
       "duration": "Nov 2024 - Jan 2025",
       "startDate": "2024-11-01",
       "endDate": "2025-01-31",
-      "image": "assets/images/smart-watch-project.jpg",
+      "image": "assets/smart_watch.jpeg",
       "description": "ESP32-based smart digital watch with WiFi time sync and power-optimized firmware.",
       "fullDescription": "Designed and developed a smart WiFi-enabled digital watch using ESP32 and GC9A01 display. Implemented NTP-based time synchronization achieving 95% accuracy.\n\nOptimized firmware using deep sleep modes, extending battery life by 3x. Built an HTTP-based file system managing 50+ files on SD card with high reliability.",
       "highlights": [
@@ -113,7 +113,7 @@
       "duration": "Sep 2024 - Oct 2024",
       "startDate": "2024-09-01",
       "endDate": "2024-10-31",
-      "image": "assets/images/maze-robot.jpg",
+      "image": "assets/line_follower.jpeg",
       "description": "ESP32-based autonomous robot with line following and maze-solving capabilities.",
       "fullDescription": "Designed a custom PCB and developed firmware using FreeRTOS for an autonomous robot capable of line following and maze solving. Implemented a recursive backtracking algorithm achieving 95% maze-solving accuracy.\n\nIntegrated WiFi-based real-time control interface with latency under 100ms.",
       "highlights": [
@@ -150,7 +150,7 @@
       "duration": "Apr 2025 - May 2025",
       "startDate": "2025-04-01",
       "endDate": "2025-05-31",
-      "image": "assets/images/esp32-dashboard.jpg",
+      "image": "assets/image.png",
       "description": "Android application for real-time ESP32 sensor data visualization.",
       "fullDescription": "Developed a Kotlin-based Android application using MVVM architecture to visualize real-time sensor data from ESP32 devices. Implemented efficient data handling with updates every 500ms and achieved 99.5% data accuracy.\n\nOptimized memory usage and ensured responsive UI across multiple screen sizes.",
       "highlights": [

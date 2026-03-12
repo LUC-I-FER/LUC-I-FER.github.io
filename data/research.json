@@ -1,16 +1,32 @@
 {
   "research": [
     {
-      "title": "AI-Driven Circuit Optimization using Large Language Models",
-      "abstract": "This paper explores the novel application of large language models for automated circuit optimization in electronic design automation. We present a framework that uses transformer-based models to generate optimized netlists, predict circuit performance, and explore design spaces. Experimental results show a 30% improvement in optimization speed compared to traditional methods.",
-      "status": "Published",
+      "title": "FM-Based Digital Audio Transmission System Using a 555 Timer and 433 MHz RF Modules",
+      "abstract": "This paper presents a simple and low-cost FM-based audio transmission system implemented using a 555 timer IC and 433 MHz RF modules. Audio captured through a KY-037 high-sensitivity microphone sensor is injected into the control voltage pin of a 555 timer configured in astable mode, producing a frequency-modulated digital waveform. This FM signal is transmitted wirelessly using ASK/OOK-based RF modules and demodulated at the receiver using a basic RC low-pass filter. Experimental results demonstrate reliable short-range wireless audio transmission with recognizable speech quality, validating the effectiveness of voltage-controlled FM modulation using minimal hardware.",
+      "status": "Presented",
       "year": "2025",
-      "tags": ["EDA", "AI", "LLMs", "Circuit Design", "Optimization"],
+      "tags": [
+        "FM Modulation",
+        "555 Timer",
+        "RF Communication",
+        "Wireless Audio",
+        "Embedded Systems",
+        "Electronics"
+      ],
       "links": [
-        { "label": "PDF", "url": "#" },
-        { "label": "DOI", "url": "#" },
-        { "label": "Code", "url": "https://github.com/adarsh/circuit-optimization" },
-        { "label": "GitHub", "url": "https://github.com/adarsh/circuit-optimization" }
+        { "label": "PDF", "url": "#" }
+      ],
+      "authors": [
+        {
+          "name": "Adarsh Meshram",
+          "affiliation": "Department of Electronics and Telecommunication Engineering, Vidyalankar Institute of Technology, Mumbai, India",
+          "role": "Student"
+        },
+        {
+          "name": "Vaibhav Pandit",
+          "affiliation": "Department of Electronics and Telecommunication Engineering, Vidyalankar Institute of Technology, Mumbai, India",
+          "role": "Assistant Professor"
+        }
       ]
     }
   ]
