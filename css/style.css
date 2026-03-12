@@ -257,16 +257,26 @@ body {
 }
 
 .image-placeholder {
-  width: 320px;
-  height: 320px;
+  width: 400px;
+  height: 400px;
   border-radius: 50%;
+  overflow: hidden;
   background: linear-gradient(45deg, var(--primary), var(--secondary));
+  /* background: url("assets/user_photo.png"); */
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-size: 120px;
   animation: float 3s ease-in-out infinite;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  object-position: center 1%;
+  border-radius: 50%;
 }
 
 @keyframes float {
