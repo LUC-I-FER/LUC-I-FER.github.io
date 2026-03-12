@@ -31,6 +31,21 @@
       "image": "assets/esp_dashboard.jpeg",
       "source": "https://github.com/LUC-I-FER/ESP_SENSOR_DASHBOARD_001",
       "demo": null
+    },
+    {
+      "title": "Virtual Temperature Sensor Linux Driver",
+      "description": "Linux character device driver simulating a temperature sensor using kernel timers, wait queues, and IOCTL-based user–kernel communication.",
+      "tags": [
+        "Linux Kernel",
+        "Device Drivers",
+        "C",
+        "Character Device",
+        "Kernel Timers",
+        "IOCTL"
+      ],
+      "image": "assets/driver.png",
+      "source": "https://github.com/LUC-I-FER/Virtual_temperature_device_001",
+      "demo": null
     }
   ]
 }

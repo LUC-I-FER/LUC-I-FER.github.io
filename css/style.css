@@ -800,6 +800,7 @@ body {
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  overflow: hidden;
 }
 
 .project-card:hover .project-image img {
