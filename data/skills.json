@@ -1,24 +1,68 @@
 {
   "skills": [
     {
-      "title": "Frontend",
-      "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js"]
+      "title": "Low-Level Systems & Embedded",
+      "items": [
+        "Embedded C / C++",
+        "Linux Kernel Development",
+        "Device Driver Development",
+        "Embedded Linux",
+        "FreeRTOS (Tasks, Queues, Timers)",
+        "UART, SPI, I2C, PWM, Interrupts"
+      ]
     },
     {
-      "title": "Backend",
-      "items": ["Node.js", "Express.js", "Django", "Flask", "MongoDB", "PostgreSQL", "REST APIs"]
+      "title": "Digital Design & Hardware",
+      "items": [
+        "Verilog / HDL",
+        "FPGA Development (Vivado)",
+        "Hardware Accelerator Design",
+        "Computer Architecture Concepts",
+        "PCB Design (KiCad)"
+      ]
     },
     {
-      "title": "AI/ML",
-      "items": ["Python (PyTorch, NumPy, Pandas)", "Transformer Models & LLMs"]
+      "title": "Embedded Platforms",
+      "items": [
+        "ESP32",
+        "Arduino",
+        "STM32 (Basics)",
+        "Sensor & Actuator Integration",
+        "RF Communication (433 MHz)",
+        "Wi-Fi Based IoT Systems"
+      ]
     },
     {
-      "title": "Embedded Systems",
-      "items": ["Embedded C / C++", "ESP32, Arduino, STM32 (Basics)", "FreeRTOS (Tasks, Queues, Timers)", "I2C, SPI, PWM, Interrupts", "Sensors & Actuators Integration", "Wireless Communication (Wi-Fi, RF 433MHz)", "PCB Design using KiCad"]
+      "title": "AI / Machine Learning",
+      "items": [
+        "Python",
+        "PyTorch",
+        "NumPy",
+        "Pandas",
+        "Transformer Models",
+        "Large Language Models (LLMs)"
+      ]
     },
     {
-      "title": "Tools & Others",
-      "items": ["Git", "Linux", "KiCad", "Postman, VS Code, Docker (Basics) "]
+      "title": "Backend & Systems Development",
+      "items": [
+        "Node.js",
+        "Express.js",
+        "REST API Design",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "title": "Tools & Environment",
+      "items": [
+        "Linux",
+        "Git",
+        "Docker (Basics)",
+        "VS Code",
+        "Postman",
+        "KiCad"
+      ]
     }
   ]
 }
