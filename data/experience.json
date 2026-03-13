@@ -66,6 +66,39 @@
         "API Design",
         "Project Coordination"
       ]
+    },
+    {
+      "id": 3,
+      "type": "research",
+      "title": "Research Paper Presentation",
+      "company": "ICRACEM 2025 International Conference",
+      "companyLogo": "assets/images/icracem-logo.png",
+      "location": "Mumbai, India",
+      "duration": "Dec 2025",
+      "startDate": "2025-12-12",
+      "endDate": "2025-12-13",
+      "image": "assets/research_paper.png",
+      "description": "Presented a research paper on FM-based digital audio transmission using RF modules and analog timing circuits.",
+      "fullDescription": "Presented the research paper titled 'FM-Based Digital Audio Transmission System Using a 555 Timer and 433 MHz RF Modules' at the International Conference on Recent Advances & Challenges in Engineering & Management (ICRACEM-2025) held at Vidyalankar Institute of Technology, Mumbai.\n\nThe project demonstrates wireless audio transmission using FM modulation techniques, a 555 timer-based signal generation circuit, and 433 MHz RF communication modules.",
+      "highlights": [
+        "Presented at an international engineering conference",
+        "Designed an FM-based wireless audio transmission system",
+        "Implemented communication using 433 MHz RF modules",
+        "Explored analog modulation with 555 timer circuits"
+      ],
+      "technologies": [
+        "555 Timer",
+        "RF Modules",
+        "Analog Electronics",
+        "FM Modulation",
+        "Wireless Communication"
+      ],
+      "skillsGained": [
+        "Research & Technical Writing",
+        "Wireless Communication",
+        "Analog Circuit Design",
+        "Technical Presentation"
+      ]
     }
   ]
 }
